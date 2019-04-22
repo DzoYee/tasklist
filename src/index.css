@@ -12,3 +12,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  text-align: left;
+}
+
+.wrapper > * {
+  padding: 60px 0px;
+  flex: 1 100%;
+}
+
+.header {
+  font-size: 40px;
+}
+
+.groups {
+  font-size: 20px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+.text-secondary {
+  font-size: 16px;
+}
+
+.task img {
+  padding-right: 15px;
+}
+
+.groups a, .groups a:hover { color: inherit; }
+
+.cursor {
+  cursor: pointer;
+}
+
+.groupDetail--header {
+  justify-content: space-between;
+}
